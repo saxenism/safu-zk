@@ -25,4 +25,4 @@ That's it.
 
 ## Code Sample
 
-The Python code for this concept can be found here:[Python code](https://github.com/saxenism/safu-zk/blob/c54b3392b87e5681bf618970a330eb548635e0f7/code/README.md)
+The Python code for this concept can be found here:[Python code](/code/README.md)
