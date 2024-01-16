@@ -25,4 +25,4 @@ That's it.
 
 ## Code Sample
 
-The Python code for this concept can be found here: [Python Code]()
+The Python code for this concept can be found here: [Python Code](code/README.md)
