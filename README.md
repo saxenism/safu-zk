@@ -5,21 +5,21 @@ A website documenting anything and everything about ZK security
 
 0. <a href="https://www.rareskills.io/zk-book" target="_blank"> Rareskill's ZK Book </a>
 
-<details>
-  <summary><i>Resource Deets</i></summary>
-  <br/>
-  <p>This ZK Books starts from the very beginning and covers everything that is required to understand the Groth16 proving algorithm. It covers the following topics (in details) with ample examples: </p>
-  <ul>
-    <li>Explaining what is a Set, Group, Ring and Field </li>
-    <li>Elliptic Curve Addition and Multiplication (Bilinear Pairings) </li>
-    <li>What are ZK Circuits? </li>
-    <li>Representing ZK Circuits as R1CS and creating ZK Proofs with R1CS</li>
-    <li>Converting R1CS to QAP for succintness via Schwartz-Zippel</li>
-    <li>QAP evaluation over Elliptic Curve</li>
-    <li>Groth16 end-to-end explanation</li>
-    <li>Intro to Circom and Circomlib</li>
-  </ul>
-</details>
+    <details>
+      <summary><i>Resource Deets</i></summary>
+      <br/>
+      <p>This ZK Books starts from the very beginning and covers everything that is required to understand the Groth16 proving algorithm. It covers the following topics (in details) with ample examples: </p>
+      <ul>
+        <li>Explaining what is a Set, Group, Ring and Field </li>
+        <li>Elliptic Curve Addition and Multiplication (Bilinear Pairings) </li>
+        <li>What are ZK Circuits? </li>
+        <li>Representing ZK Circuits as R1CS and creating ZK Proofs with R1CS</li>
+        <li>Converting R1CS to QAP for succintness via Schwartz-Zippel</li>
+        <li>QAP evaluation over Elliptic Curve</li>
+        <li>Groth16 end-to-end explanation</li>
+        <li>Intro to Circom and Circomlib</li>
+      </ul>
+    </details>
 
 # 1. Resources for ZK Security
 
