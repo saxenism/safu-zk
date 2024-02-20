@@ -25,4 +25,4 @@ That's it.
 
 ## Code Sample
 
-The Python code for this concept can be found here:[Python code](/code/README.md)
+The Python code for this concept can be found here: <a href="/code/README.md" target="_blank">Python code</a>
