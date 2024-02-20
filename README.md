@@ -1,6 +1,11 @@
 # safu-zk
 A website documenting anything and everything about ZK security
 
+# 0. Resources for ZK Security
+
+0. <a href="https://github.com/0xPARC/zk-bug-tracker" target="_blank"> 0xParc's ZK Bug Tracker </a>
+1. <a href="https://github.com/nullity00/zk-security-reviews" target="_blank"> Nullity's ZK Audits' Repo </a>
+
 # 1. Encrypted QAP Evaluations
 
 + QAP: Quadratic Arithmetic Programs.
