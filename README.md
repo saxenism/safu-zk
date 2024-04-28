@@ -10,7 +10,7 @@ This section has a collection of a few standard and non-standard circuit impleme
     <br/>
     This circuits returns 1 if the input signal <i>i</i> is 0 otherwise returns 0 for non-zero values. Figure out how can you break this circuit.
 
-    ```
+    <code>
         pragma circom 2.1.6;
 
         template isZeroUnsafe() {
@@ -24,7 +24,7 @@ This section has a collection of a few standard and non-standard circuit impleme
         }
 
         component main = isZeroUnsafe();
-    ```
+    </code>
 </details>
 
 <br/>
