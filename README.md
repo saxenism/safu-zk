@@ -7,7 +7,7 @@ This section has a collection of a few standard and non-standard circuit impleme
 
 ## 0.1 IsZero
     
-  This circuits returns 1 if the input signal *i* is 0 otherwise returns 0 for non-zero values. Figure out how can you break this circuit.
+  This circuits returns 1 if the input signal *in* is 0 otherwise returns 0 for non-zero values. Figure out how can you break this circuit.
 
   ```
   pragma circom 2.1.6;
