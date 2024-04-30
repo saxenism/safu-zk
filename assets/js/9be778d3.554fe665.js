@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksafu_zk=self.webpackChunksafu_zk||[]).push([[92],{517:a=>{a.exports=JSON.parse('{"label":"qap","permalink":"/safu-zk/blog/tags/qap","allTagsPath":"/safu-zk/blog/tags","count":1,"unlisted":false}')}}]);

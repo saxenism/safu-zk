@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksafu_zk=self.webpackChunksafu_zk||[]).push([[986],{2013:e=>{e.exports=JSON.parse('{"permalink":"/safu-zk/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
