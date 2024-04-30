@@ -1,0 +1,13 @@
+1,1,2,main.out
+2,2,2,main.in[0]
+3,3,2,main.in[1]
+4,4,2,main.in[2]
+5,5,2,main.in[3]
+6,6,2,main.in[4]
+7,7,2,main.denominator_inverse
+8,8,1,main.eq.out
+9,-1,1,main.eq.in[0]
+10,-1,1,main.eq.in[1]
+11,-1,0,main.eq.isz.out
+12,-1,0,main.eq.isz.in
+13,9,0,main.eq.isz.inv
