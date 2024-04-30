@@ -3,125 +3,130 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/blog',
-    component: ComponentCreator('/blog', 'eb9'),
+    path: '/safu-zk/',
+    component: ComponentCreator('/safu-zk/', '465'),
     exact: true
   },
   {
-    path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '84d'),
+    path: '/safu-zk/blog',
+    component: ComponentCreator('/safu-zk/blog', 'e18'),
     exact: true
   },
   {
-    path: '/blog/encrypted-qap-evaluations',
-    component: ComponentCreator('/blog/encrypted-qap-evaluations', 'e66'),
+    path: '/safu-zk/blog/archive',
+    component: ComponentCreator('/safu-zk/blog/archive', '416'),
     exact: true
   },
   {
-    path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '62e'),
+    path: '/safu-zk/blog/encrypted-qap-evaluations',
+    component: ComponentCreator('/safu-zk/blog/encrypted-qap-evaluations', '258'),
     exact: true
   },
   {
-    path: '/blog/tags/qap',
-    component: ComponentCreator('/blog/tags/qap', '678'),
+    path: '/safu-zk/blog/tags',
+    component: ComponentCreator('/safu-zk/blog/tags', '956'),
     exact: true
   },
   {
-    path: '/blog/tags/security',
-    component: ComponentCreator('/blog/tags/security', '223'),
+    path: '/safu-zk/blog/tags/qap',
+    component: ComponentCreator('/safu-zk/blog/tags/qap', '397'),
     exact: true
   },
   {
-    path: '/challenges',
-    component: ComponentCreator('/challenges', '8fa'),
+    path: '/safu-zk/blog/tags/security',
+    component: ComponentCreator('/safu-zk/blog/tags/security', 'ac5'),
     exact: true
   },
   {
-    path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '5b0'),
+    path: '/safu-zk/challenges',
+    component: ComponentCreator('/safu-zk/challenges', 'f35'),
     exact: true
   },
   {
-    path: '/resources',
-    component: ComponentCreator('/resources', '687'),
+    path: '/safu-zk/markdown-page',
+    component: ComponentCreator('/safu-zk/markdown-page', 'd81'),
     exact: true
   },
   {
-    path: '/docs',
-    component: ComponentCreator('/docs', '713'),
+    path: '/safu-zk/resources',
+    component: ComponentCreator('/safu-zk/resources', '237'),
+    exact: true
+  },
+  {
+    path: '/safu-zk/docs',
+    component: ComponentCreator('/safu-zk/docs', 'c80'),
     routes: [
       {
-        path: '/docs',
-        component: ComponentCreator('/docs', '138'),
+        path: '/safu-zk/docs',
+        component: ComponentCreator('/safu-zk/docs', '9ee'),
         routes: [
           {
-            path: '/docs',
-            component: ComponentCreator('/docs', '0c0'),
+            path: '/safu-zk/docs',
+            component: ComponentCreator('/safu-zk/docs', '210'),
             routes: [
               {
-                path: '/docs/category/tutorial---basics',
-                component: ComponentCreator('/docs/category/tutorial---basics', 'd44'),
+                path: '/safu-zk/docs/category/tutorial---basics',
+                component: ComponentCreator('/safu-zk/docs/category/tutorial---basics', '639'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/category/tutorial---extras',
-                component: ComponentCreator('/docs/category/tutorial---extras', 'f09'),
+                path: '/safu-zk/docs/category/tutorial---extras',
+                component: ComponentCreator('/safu-zk/docs/category/tutorial---extras', '9fe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/intro',
-                component: ComponentCreator('/docs/intro', '61d'),
+                path: '/safu-zk/docs/intro',
+                component: ComponentCreator('/safu-zk/docs/intro', 'c26'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/congratulations',
-                component: ComponentCreator('/docs/tutorial-basics/congratulations', '458'),
+                path: '/safu-zk/docs/tutorial-basics/congratulations',
+                component: ComponentCreator('/safu-zk/docs/tutorial-basics/congratulations', 'dcc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-blog-post',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post', '108'),
+                path: '/safu-zk/docs/tutorial-basics/create-a-blog-post',
+                component: ComponentCreator('/safu-zk/docs/tutorial-basics/create-a-blog-post', '66a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-document',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-document', '8fc'),
+                path: '/safu-zk/docs/tutorial-basics/create-a-document',
+                component: ComponentCreator('/safu-zk/docs/tutorial-basics/create-a-document', '3e9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/create-a-page',
-                component: ComponentCreator('/docs/tutorial-basics/create-a-page', '951'),
+                path: '/safu-zk/docs/tutorial-basics/create-a-page',
+                component: ComponentCreator('/safu-zk/docs/tutorial-basics/create-a-page', 'fa3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/deploy-your-site',
-                component: ComponentCreator('/docs/tutorial-basics/deploy-your-site', '4f5'),
+                path: '/safu-zk/docs/tutorial-basics/deploy-your-site',
+                component: ComponentCreator('/safu-zk/docs/tutorial-basics/deploy-your-site', '2a0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-basics/markdown-features',
-                component: ComponentCreator('/docs/tutorial-basics/markdown-features', 'b05'),
+                path: '/safu-zk/docs/tutorial-basics/markdown-features',
+                component: ComponentCreator('/safu-zk/docs/tutorial-basics/markdown-features', '730'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/manage-docs-versions',
-                component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions', '978'),
+                path: '/safu-zk/docs/tutorial-extras/manage-docs-versions',
+                component: ComponentCreator('/safu-zk/docs/tutorial-extras/manage-docs-versions', 'a78'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/tutorial-extras/translate-your-site',
-                component: ComponentCreator('/docs/tutorial-extras/translate-your-site', 'f9a'),
+                path: '/safu-zk/docs/tutorial-extras/translate-your-site',
+                component: ComponentCreator('/safu-zk/docs/tutorial-extras/translate-your-site', 'dc6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }
@@ -130,11 +135,6 @@ export default [
         ]
       }
     ]
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', '7af'),
-    exact: true
   },
   {
     path: '*',

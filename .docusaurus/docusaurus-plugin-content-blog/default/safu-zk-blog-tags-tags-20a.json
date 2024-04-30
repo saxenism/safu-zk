@@ -1,22 +1,12 @@
 [
   {
-    "label": "facebook",
-    "permalink": "/safu-zk/blog/tags/facebook",
+    "label": "security",
+    "permalink": "/safu-zk/blog/tags/security",
     "count": 1
   },
   {
-    "label": "hello",
-    "permalink": "/safu-zk/blog/tags/hello",
-    "count": 2
-  },
-  {
-    "label": "docusaurus",
-    "permalink": "/safu-zk/blog/tags/docusaurus",
-    "count": 4
-  },
-  {
-    "label": "hola",
-    "permalink": "/safu-zk/blog/tags/hola",
+    "label": "qap",
+    "permalink": "/safu-zk/blog/tags/qap",
     "count": 1
   }
 ]

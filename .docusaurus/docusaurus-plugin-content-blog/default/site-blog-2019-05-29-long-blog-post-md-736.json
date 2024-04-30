@@ -1,5 +1,5 @@
 {
-  "permalink": "/blog/encrypted-qap-evaluations",
+  "permalink": "/safu-zk/blog/encrypted-qap-evaluations",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
   "title": "Encrypted QAP Evaluations",
@@ -8,11 +8,11 @@
   "tags": [
     {
       "label": "security",
-      "permalink": "/blog/tags/security"
+      "permalink": "/safu-zk/blog/tags/security"
     },
     {
       "label": "qap",
-      "permalink": "/blog/tags/qap"
+      "permalink": "/safu-zk/blog/tags/qap"
     }
   ],
   "readingTime": 5.855,

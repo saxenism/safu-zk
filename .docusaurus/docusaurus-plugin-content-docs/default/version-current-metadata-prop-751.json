@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Tutorial Intro",
-        "href": "/docs/intro",
+        "href": "/safu-zk/docs/intro",
         "docId": "intro",
         "unlisted": false
       },
@@ -25,47 +25,47 @@
           {
             "type": "link",
             "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
+            "href": "/safu-zk/docs/tutorial-basics/create-a-page",
             "docId": "tutorial-basics/create-a-page",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
+            "href": "/safu-zk/docs/tutorial-basics/create-a-document",
             "docId": "tutorial-basics/create-a-document",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
+            "href": "/safu-zk/docs/tutorial-basics/create-a-blog-post",
             "docId": "tutorial-basics/create-a-blog-post",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
+            "href": "/safu-zk/docs/tutorial-basics/markdown-features",
             "docId": "tutorial-basics/markdown-features",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
+            "href": "/safu-zk/docs/tutorial-basics/deploy-your-site",
             "docId": "tutorial-basics/deploy-your-site",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
+            "href": "/safu-zk/docs/tutorial-basics/congratulations",
             "docId": "tutorial-basics/congratulations",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/tutorial---basics"
+        "href": "/safu-zk/docs/category/tutorial---basics"
       },
       {
         "type": "category",
@@ -76,19 +76,19 @@
           {
             "type": "link",
             "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
+            "href": "/safu-zk/docs/tutorial-extras/manage-docs-versions",
             "docId": "tutorial-extras/manage-docs-versions",
             "unlisted": false
           },
           {
             "type": "link",
             "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
+            "href": "/safu-zk/docs/tutorial-extras/translate-your-site",
             "docId": "tutorial-extras/translate-your-site",
             "unlisted": false
           }
         ],
-        "href": "/docs/category/tutorial---extras"
+        "href": "/safu-zk/docs/category/tutorial---extras"
       }
     ]
   },

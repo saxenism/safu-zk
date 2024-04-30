@@ -8,7 +8,7 @@ export default {
   "tagline": "Zero Knowledge Proofs(ZKPs) is a domain of cryptography that promises to provide blockchain with several capabilities such as scaling & privacy. This website is dedicated entirely to ZKP security.",
   "favicon": "img/favicon.ico",
   "url": "https://safuzk.com",
-  "baseUrl": "/",
+  "baseUrl": "/safu-zk/",
   "organizationName": "saxenism",
   "projectName": "safu-zk",
   "onBrokenLinks": "throw",

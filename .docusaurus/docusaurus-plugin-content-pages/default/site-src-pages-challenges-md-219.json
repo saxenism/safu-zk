@@ -1,6 +1,6 @@
 {
   "type": "mdx",
-  "permalink": "/challenges",
+  "permalink": "/safu-zk/challenges",
   "source": "@site/src/pages/challenges.md",
   "title": "Vulnerable Circuit Challenges",
   "description": "This section has a collection of a few standard and non-standard circuit implementations that are vulnerable. Figure out how you can break these circuits.",
