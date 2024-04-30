@@ -1,47 +1,45 @@
 {
-  "permalink": "/blog/long-blog-post",
+  "permalink": "/blog/encrypted-qap-evaluations",
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
   "source": "@site/blog/2019-05-29-long-blog-post.md",
-  "title": "Long Blog Post",
-  "description": "This is the summary of a very long blog post,",
+  "title": "Encrypted QAP Evaluations",
+  "description": "+ QAP: Quadratic Arithmetic Programs.",
   "date": "2019-05-29T00:00:00.000Z",
   "tags": [
     {
-      "label": "hello",
-      "permalink": "/blog/tags/hello"
+      "label": "security",
+      "permalink": "/blog/tags/security"
     },
     {
-      "label": "docusaurus",
-      "permalink": "/blog/tags/docusaurus"
+      "label": "qap",
+      "permalink": "/blog/tags/qap"
     }
   ],
-  "readingTime": 2.05,
+  "readingTime": 5.855,
   "hasTruncateMarker": true,
   "authors": [
     {
-      "name": "Endilie Yacop Sucipto",
-      "title": "Maintainer of Docusaurus",
-      "url": "https://github.com/endiliey",
-      "imageURL": "https://github.com/endiliey.png",
-      "key": "endi"
+      "name": "Rahul Saxena",
+      "title": "Blocksec Researcher",
+      "url": "https://twitter.com/saxenism",
+      "image_url": "https://pbs.twimg.com/profile_images/1554486619914117126/7QV7CHum_400x400.jpg",
+      "imageURL": "https://pbs.twimg.com/profile_images/1554486619914117126/7QV7CHum_400x400.jpg"
     }
   ],
   "frontMatter": {
-    "slug": "long-blog-post",
-    "title": "Long Blog Post",
-    "authors": "endi",
+    "slug": "encrypted-qap-evaluations",
+    "title": "Encrypted QAP Evaluations",
+    "authors": {
+      "name": "Rahul Saxena",
+      "title": "Blocksec Researcher",
+      "url": "https://twitter.com/saxenism",
+      "image_url": "https://pbs.twimg.com/profile_images/1554486619914117126/7QV7CHum_400x400.jpg",
+      "imageURL": "https://pbs.twimg.com/profile_images/1554486619914117126/7QV7CHum_400x400.jpg"
+    },
     "tags": [
-      "hello",
-      "docusaurus"
+      "security",
+      "qap"
     ]
   },
-  "unlisted": false,
-  "prevItem": {
-    "title": "MDX Blog Post",
-    "permalink": "/blog/mdx-blog-post"
-  },
-  "nextItem": {
-    "title": "First Blog Post",
-    "permalink": "/blog/first-blog-post"
-  }
+  "unlisted": false
 }

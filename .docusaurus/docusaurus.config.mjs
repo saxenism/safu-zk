@@ -49,6 +49,11 @@ export default {
       },
       "items": [
         {
+          "to": "/blog",
+          "label": "Blogs",
+          "position": "left"
+        },
+        {
           "to": "/challenges",
           "label": "Hack The Circuits",
           "position": "left"
@@ -57,11 +62,6 @@ export default {
           "to": "/resources",
           "label": "Learn ZK",
           "position": "left"
-        },
-        {
-          "to": "/playground-experiments",
-          "label": "Code Snippets",
-          "position": "right"
         }
       ],
       "hideOnScroll": false
@@ -102,6 +102,10 @@ export default {
         {
           "title": "More",
           "items": [
+            {
+              "label": "Experimental Circuit Code",
+              "href": "https://github.com/saxenism/safu-zk/tree/master/playground-experiments"
+            },
             {
               "label": "GitHub",
               "href": "https://github.com/saxenism"

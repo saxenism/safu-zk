@@ -1,22 +1,12 @@
 [
   {
-    "label": "facebook",
-    "permalink": "/blog/tags/facebook",
+    "label": "security",
+    "permalink": "/blog/tags/security",
     "count": 1
   },
   {
-    "label": "hello",
-    "permalink": "/blog/tags/hello",
-    "count": 2
-  },
-  {
-    "label": "docusaurus",
-    "permalink": "/blog/tags/docusaurus",
-    "count": 4
-  },
-  {
-    "label": "hola",
-    "permalink": "/blog/tags/hola",
+    "label": "qap",
+    "permalink": "/blog/tags/qap",
     "count": 1
   }
 ]

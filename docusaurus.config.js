@@ -63,7 +63,7 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
+      // Replace with your project's social cardß
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Safu ZK',
@@ -72,10 +72,9 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          {to: '/blog', label: "Blogs", position: 'left'},
           {to: '/challenges', label: 'Hack The Circuits', position: 'left'},
-          {to: '/resources', label: 'Learn ZK', position: 'left'},
-
-          {to: '/playground-experiments', label: 'Code Snippets', position: 'right'}
+          {to: '/resources', label: 'Learn ZK', position: 'left'}
         ],
       },
       footer: {
@@ -114,6 +113,10 @@ const config = {
           {
             title: 'More',
             items: [
+              {
+                label: 'Experimental Circuit Code',
+                href: 'https://github.com/saxenism/safu-zk/tree/master/playground-experiments',
+              },
               {
                 label: 'GitHub',
                 href: 'https://github.com/saxenism',
