@@ -49,19 +49,18 @@ export default {
       },
       "items": [
         {
-          "type": "docSidebar",
-          "sidebarId": "tutorialSidebar",
-          "position": "left",
-          "label": "Tutorial"
-        },
-        {
-          "to": "/blog",
-          "label": "Blog",
+          "to": "/challenges",
+          "label": "Hack The Circuits",
           "position": "left"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
-          "label": "GitHub",
+          "to": "/resources",
+          "label": "Learn ZK",
+          "position": "left"
+        },
+        {
+          "to": "/playground-experiments",
+          "label": "Code Snippets",
           "position": "right"
         }
       ],

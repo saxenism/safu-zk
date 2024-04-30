@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/resources",
+  "source": "@site/src/pages/resources.md",
+  "title": "Zero Knowledge Resources",
+  "description": "Learning about Zero knowledge security entails that you have a solid understanding of the maths that make up zero knowledge proofs in the first place. This section covers all the publicly available resources one could consider to level up their ZK skills.",
+  "frontMatter": {
+    "title": "Zero Knowledge Resources"
+  },
+  "unlisted": false
+}

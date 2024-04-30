@@ -72,18 +72,10 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/challenges', label: 'Hack The Circuits', position: 'left'},
+          {to: '/resources', label: 'Learn ZK', position: 'left'},
+
+          {to: '/playground-experiments', label: 'Code Snippets', position: 'right'}
         ],
       },
       footer: {
