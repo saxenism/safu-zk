@@ -11,7 +11,6 @@ export default {
   "baseUrl": "/",
   "organizationName": "saxenism",
   "projectName": "safu-zk",
-  "deploymentBranch": "master",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
