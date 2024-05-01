@@ -44,14 +44,10 @@ Solution: [Solution tweet](https://x.com/saxenism/status/1784546740999188833)
 
   include "node_modules/circomlib/circuits/comparators.circom";
 
-  function invert(x) {
-      return 1 / x;
-  }
-
   template Average(n) {
 
       signal input in[n];
-      signal denominator;
+      signal denominator_inv;
       signal output out;
 
       var sum;
@@ -59,15 +55,15 @@ Solution: [Solution tweet](https://x.com/saxenism/status/1784546740999188833)
           sum += in[i];
       }
 
-      denominator <-- invert(n);
+      denominator_inv <-- 1 / n;
 
       component eq = IsEqual();
-      eq.in[0] <== denominator;
-      eq.in[1] <== n;
+      eq.in[0] <== 1;
+      eq.in[1] <== denominator_inv * n;
 
-      out <== sum * denominator;
+      out <== sum * denominator_inv;
+
   }
 
   component main  = Average(5);
-
   ```
