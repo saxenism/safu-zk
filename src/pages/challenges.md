@@ -31,3 +31,43 @@ This section has a collection of a few standard and non-standard circuit impleme
 The solution to this problem was discussed on twitter. Please have a look at the entire thread to understand how people thought about the problem as well.
 
 Solution: [Solution tweet](https://x.com/saxenism/status/1784546740999188833)
+
+
+## 2. Calculating the Average
+
+  This circuit calculate the average of the `n` numbers that are supplied to it via the input signal array `in[n]`. Something is wrong with this circuit, to be precise a constraint is missing.
+
+  This example is taken from a very well respected Circom source. So, this bug has been out in the wild for quite a while (~9 months). Can you figure out what's wrong here?
+
+  ```circom
+  pragma circom 2.1.6;
+
+  include "node_modules/circomlib/circuits/comparators.circom";
+
+  function invert(x) {
+      return 1 / x;
+  }
+
+  template Average(n) {
+
+      signal input in[n];
+      signal denominator;
+      signal output out;
+
+      var sum;
+      for (var i = 0; i < n; i++) {
+          sum += in[i];
+      }
+
+      denominator <-- invert(n);
+
+      component eq = IsEqual();
+      eq.in[0] <== denominator;
+      eq.in[1] <== n;
+
+      out <== sum * denominator;
+  }
+
+  component main  = Average(5);
+
+  ```
