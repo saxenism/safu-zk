@@ -41,5 +41,9 @@
       "qap"
     ]
   },
-  "unlisted": false
+  "unlisted": false,
+  "prevItem": {
+    "title": "Select Resources to learn ZK",
+    "permalink": "/safu-zk/blog/zk-resouces"
+  }
 }

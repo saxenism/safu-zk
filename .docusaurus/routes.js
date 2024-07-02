@@ -4,57 +4,72 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/safu-zk/',
-    component: ComponentCreator('/safu-zk/', '465'),
+    component: ComponentCreator('/safu-zk/', '28c'),
     exact: true
   },
   {
     path: '/safu-zk/blog',
-    component: ComponentCreator('/safu-zk/blog', 'e18'),
+    component: ComponentCreator('/safu-zk/blog', '768'),
     exact: true
   },
   {
     path: '/safu-zk/blog/archive',
-    component: ComponentCreator('/safu-zk/blog/archive', '416'),
+    component: ComponentCreator('/safu-zk/blog/archive', '660'),
     exact: true
   },
   {
     path: '/safu-zk/blog/encrypted-qap-evaluations',
-    component: ComponentCreator('/safu-zk/blog/encrypted-qap-evaluations', '258'),
+    component: ComponentCreator('/safu-zk/blog/encrypted-qap-evaluations', '818'),
     exact: true
   },
   {
     path: '/safu-zk/blog/tags',
-    component: ComponentCreator('/safu-zk/blog/tags', '956'),
+    component: ComponentCreator('/safu-zk/blog/tags', '587'),
     exact: true
   },
   {
     path: '/safu-zk/blog/tags/qap',
-    component: ComponentCreator('/safu-zk/blog/tags/qap', '397'),
+    component: ComponentCreator('/safu-zk/blog/tags/qap', 'c66'),
+    exact: true
+  },
+  {
+    path: '/safu-zk/blog/tags/resources',
+    component: ComponentCreator('/safu-zk/blog/tags/resources', 'ae6'),
     exact: true
   },
   {
     path: '/safu-zk/blog/tags/security',
-    component: ComponentCreator('/safu-zk/blog/tags/security', 'ac5'),
+    component: ComponentCreator('/safu-zk/blog/tags/security', '6d7'),
+    exact: true
+  },
+  {
+    path: '/safu-zk/blog/tags/zero-knowledge',
+    component: ComponentCreator('/safu-zk/blog/tags/zero-knowledge', '590'),
+    exact: true
+  },
+  {
+    path: '/safu-zk/blog/zk-resouces',
+    component: ComponentCreator('/safu-zk/blog/zk-resouces', '7ce'),
     exact: true
   },
   {
     path: '/safu-zk/challenges',
-    component: ComponentCreator('/safu-zk/challenges', 'f35'),
+    component: ComponentCreator('/safu-zk/challenges', '68d'),
     exact: true
   },
   {
     path: '/safu-zk/markdown-page',
-    component: ComponentCreator('/safu-zk/markdown-page', 'd81'),
+    component: ComponentCreator('/safu-zk/markdown-page', 'c51'),
     exact: true
   },
   {
     path: '/safu-zk/resources',
-    component: ComponentCreator('/safu-zk/resources', '237'),
+    component: ComponentCreator('/safu-zk/resources', '1fa'),
     exact: true
   },
   {
     path: '/safu-zk/docs',
-    component: ComponentCreator('/safu-zk/docs', 'c80'),
+    component: ComponentCreator('/safu-zk/docs', 'd83'),
     routes: [
       {
         path: '/safu-zk/docs',

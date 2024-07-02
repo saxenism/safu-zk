@@ -1,54 +1,57 @@
 {
-  "/safu-zk/-465": {
+  "/safu-zk/-28c": {
     "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "769dfc89"
+      "plugin": "2969a85e"
     },
     "config": "5e9f5e1a"
   },
-  "/safu-zk/blog-e18": {
+  "/safu-zk/blog-768": {
     "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "cbdc9ea5"
+      "plugin": "7fc583a0"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "42e18aae"
+      },
       {
         "content": "8717b14a"
       }
     ],
     "metadata": "d0f5f475"
   },
-  "/safu-zk/blog/archive-416": {
+  "/safu-zk/blog/archive-660": {
     "__comp": "9e4087bc",
     "__context": {
-      "plugin": "cbdc9ea5"
+      "plugin": "7fc583a0"
     },
     "archive": "f29d44b7"
   },
-  "/safu-zk/blog/encrypted-qap-evaluations-258": {
+  "/safu-zk/blog/encrypted-qap-evaluations-818": {
     "__comp": "ccc49370",
     "__context": {
       "data": {
         "blogMetadata": "acecf23e"
       },
-      "plugin": "cbdc9ea5"
+      "plugin": "7fc583a0"
     },
     "sidebar": "814f3328",
     "content": "73664a40"
   },
-  "/safu-zk/blog/tags-956": {
+  "/safu-zk/blog/tags-587": {
     "__comp": "01a85c17",
     "__context": {
-      "plugin": "cbdc9ea5"
+      "plugin": "7fc583a0"
     },
     "sidebar": "814f3328",
     "tags": "80e1c843"
   },
-  "/safu-zk/blog/tags/qap-397": {
+  "/safu-zk/blog/tags/qap-c66": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "cbdc9ea5"
+      "plugin": "7fc583a0"
     },
     "sidebar": "814f3328",
     "items": [
@@ -59,10 +62,24 @@
     "tag": "9be778d3",
     "listMetadata": "b1ce5c88"
   },
-  "/safu-zk/blog/tags/security-ac5": {
+  "/safu-zk/blog/tags/resources-ae6": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "cbdc9ea5"
+      "plugin": "7fc583a0"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "42e18aae"
+      }
+    ],
+    "tag": "77a79b16",
+    "listMetadata": "825a28e6"
+  },
+  "/safu-zk/blog/tags/security-6d7": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "7fc583a0"
     },
     "sidebar": "814f3328",
     "items": [
@@ -73,31 +90,56 @@
     "tag": "3d9588ed",
     "listMetadata": "4ba1c151"
   },
-  "/safu-zk/challenges-f35": {
+  "/safu-zk/blog/tags/zero-knowledge-590": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "7fc583a0"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "42e18aae"
+      }
+    ],
+    "tag": "1ee8155c",
+    "listMetadata": "105ac8ba"
+  },
+  "/safu-zk/blog/zk-resouces-7ce": {
+    "__comp": "ccc49370",
+    "__context": {
+      "data": {
+        "blogMetadata": "acecf23e"
+      },
+      "plugin": "7fc583a0"
+    },
+    "sidebar": "814f3328",
+    "content": "ce4ae859"
+  },
+  "/safu-zk/challenges-68d": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "769dfc89"
+      "plugin": "2969a85e"
     },
     "content": "219d3f43"
   },
-  "/safu-zk/markdown-page-d81": {
+  "/safu-zk/markdown-page-c51": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "769dfc89"
+      "plugin": "2969a85e"
     },
     "content": "393be207"
   },
-  "/safu-zk/resources-237": {
+  "/safu-zk/resources-1fa": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "769dfc89"
+      "plugin": "2969a85e"
     },
     "content": "a194631d"
   },
-  "/safu-zk/docs-c80": {
+  "/safu-zk/docs-d83": {
     "__comp": "5e95c892",
     "__context": {
-      "plugin": "3dbc042e"
+      "plugin": "0865ac2c"
     }
   },
   "/safu-zk/docs-9ee": {

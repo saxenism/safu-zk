@@ -2,6 +2,11 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "Select Resources to learn ZK",
+      "permalink": "/safu-zk/blog/zk-resouces",
+      "unlisted": false
+    },
+    {
       "title": "Encrypted QAP Evaluations",
       "permalink": "/safu-zk/blog/encrypted-qap-evaluations",
       "unlisted": false
