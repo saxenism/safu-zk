@@ -13,21 +13,18 @@ tags: [Zero Knowledge, Resources]
 
 ## Fiat Shamir
 
-Everyone just sort of assumes that you already know what FS is, however, most people don't or atleast they have nothing beyond a superficial idea of how FS works in depth.
+1. Everyone just sort of assumes that you already know what FS is, however, most people don't or atleast they have nothing beyond a superficial idea of how FS works in depth.
 
-Copying a tweet I posted about this resource:
+  + Copying a tweet I posted about this resource:
 
-*If you'd ever wanted to move beyond understanding WHAT is Fiat Shamir and know how and why it is secure... please watch this presentation by 
-@ronrothblum: https://youtube.com/watch?v=9cagVtYstyY*
+  + *If you'd ever wanted to move beyond understanding WHAT is Fiat Shamir and know how and why it is secure... please watch this presentation by @ronrothblum: https://youtube.com/watch?v=9cagVtYstyY*
 
-*Security is basically ensuring:*
+  + *Security is basically ensuring:*
 
-*1. Completeness*
+    + *1. Completeness*
+    + *2. Soundness*
+    + *3. Preserving ZK (over n rounds)*
 
-*2. Soundness*
+  + *This presentation will help you understand why FS is secure for an ideal hash function, ie, the ROM (Random Oracle Model).*
 
-*3. Preserving ZK (over n rounds)*
-
-*This presentation will help you understand why FS is secure for an ideal hash function, ie, the ROM (Random Oracle Model).*
-
-*And most importantly, why people make mistakes while implementing FS, because FS does not have such strong guarentees over real, concrete hash families. And, if you can internalise why, I reckon that would be a good spot to go bug-hunting.*
+  + *And most importantly, why people make mistakes while implementing FS, because FS does not have such strong guarentees over real, concrete hash families. And, if you can internalise why, I reckon that would be a good spot to go bug-hunting.*
