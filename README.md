@@ -22,7 +22,9 @@ Here is an explanation of what the Fiat Shamir transform means.
 
 5. And most importantly, why people make mistakes while implementing FS, because FS does not have such strong guarentees over real, concrete hash families. And, if you can internalise why, I reckon that would be a good spot to go bug-hunting.
 
-6. Example of a bug due to incorrect implementation of Fiat Shamir over the PLONK proving system: [Last Challenge Attack by OZ](https://www.youtube.com/watch?v=Sk-S8-n6Jo4)
+### FS Security B1: Last Challenge Attack
+
+1. Example of a bug due to incorrect implementation of Fiat Shamir over the PLONK proving system: [Last Challenge Attack by OZ](https://www.youtube.com/watch?v=Sk-S8-n6Jo4)
     + Quick Recap of the how the hack is carried out
     + ![FS Transform](./assets/fs_transform1.jpeg)
     + PIOP -> Polynomial Interactive Oracle Protocol
@@ -40,10 +42,10 @@ Here is an explanation of what the Fiat Shamir transform means.
     + ![](./assets/fs_transform3.png)
     + Important point to note is that `u` (or the last challenge) is not being used anywhere in the calculation of the proof. Therefore, *it makes sense to replace hashing all the transcripts to obtain `u` with a random value.*
 
-7. Now onto the last step of the PLONK verifier. If the following equation holds, then the proof is accepted.
+2. Now onto the last step of the PLONK verifier. If the following equation holds, then the proof is accepted.
     + ![](./assets/fs_transform4.png)
     
-8. Now these are the steps that the attacker would take to forge a false proof that would be accepted by the verifier.
+3. Now these are the steps that the attacker would take to forge a false proof that would be accepted by the verifier.
     + **Bootstrapping**: Prover produces `A` and `B` from any circuit of its choice. By virtue of it being a legitimate proof, the equation highlighted in 7 holds.
     + The prover can change any values in the proof π highlighted in green (including the public inputs) apart from the polynomial commitments, red blocks:
         + ![](./assets/fs_transform5.png)
@@ -53,6 +55,8 @@ Here is an explanation of what the Fiat Shamir transform means.
     + Prover adds the missing X and Y to complete the false proof π
     + Verifier accepts the false proof π as valid, because we started off with a valid proof. What we did is simply retrofitted the two values.
 
-9. That's it. That was the exploit. Key Takeaways: 
+4. That's it. That was the exploit. Key Takeaways: 
     + FS challenges must depend on the entire transcripts
     + PLEASE follow the protocol
+
+### FS Security B2: Weak Fiat Shamir Attacks
