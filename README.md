@@ -92,9 +92,9 @@ Here is an explanation of what the Fiat Shamir transform means.
     + We may then very well compute the proof first. This can be done because the challenges can be determined by the prover itself. Now the only thing that would remain is to set the *public input* in such a way that it makes the proof acceptable.
     + Basically, we can arbitrarily choose any polynomial for the highlighted part of the equation:
     + ![](./assets/fs_security_b2_4.png)
-    + All that is left to do now is solve for the public values `PI = PI<sub>1</sub>, PI<sub>2</sub>, .... , PI<sub>k</sub>` such that the equation is satisfied.
-        + Even this *calculation* is very easy to carry out because you have a high degree of freedom, ie, you can set ALL BUT 1 `PI<sub>i</sub>` to be arbitrary (from the list of public values).
-        + So essentially, if there are 500 public values or `PI<sub>i</sub>`s available, you just have to choose one correct from them that satisfies the equation and the rest can be any random values that you like.
+    + All that is left to do now is solve for the public values PI = PI<sub>1</sub>, PI<sub>2</sub>, .... , PI<sub>k</sub> such that the equation is satisfied.
+        + Even this *calculation* is very easy to carry out because you have a high degree of freedom, ie, you can set ALL BUT 1 PI<sub>i</sub> to be arbitrary (from the list of public values).
+        + So essentially, if there are 500 public values or PI<sub>i</sub>s available, you just have to choose one correct from them that satisfies the equation and the rest can be any random values that you like.
 
 8. Did this look like a theoretical exercise? Well, it was not. Here's a real-life exploit that could have helped the attacker mint unlimited money:
     + [Dusk critical PLONK security vulnerability](https://dusk.network/news/plonk-vulnerability-remediated)
