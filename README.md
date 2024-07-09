@@ -1,4 +1,4 @@
-# ZK Notes
+# Safu ZK: Handbook for ZKP Security
 
 ## Fiat Shamir Transform
 
@@ -60,3 +60,42 @@ Here is an explanation of what the Fiat Shamir transform means.
     + PLEASE follow the protocol
 
 ### FS Security B2: Weak Fiat Shamir Attacks
+
+1. As mentioned in the Fiat Shamir description earlier, whether a FS implementation is secure or not is dependent on whether *soundness* and *completeness* is preserved or not (ZK too, but that's not the focus right now).
+
+2. It is shown in the academic papers that the Fiat Shamir transform preserves these security properties. But that is true for **non-adaptive** settings, ie, settings where the malicious prover P<sup>*</sup> may not choose the statements.
+
+3. In adaptive settings, P<sup>*</sup> can compute both `π` and `x` simultaneously.
+    + `π` -> Proof
+    + `x` -> Public Statement
+
+4. These notions of adaptive and non-adaptive settings give rise to the notion of **WEAK FIAT SHAMIR** and **STRONG FIAT SHAMIR** implementation. 
+    + Since calculating both `π` and `x` is only possible if we omit the public statement in the calculation of the challenges and hence the proof `π`, that is referred to as the *weak* implementation of Fiat Shamir.
+    + On the other hand, if we want to stop the prover P (malicious or not) from calculating both `π` and `x` simultaneously we have to make sure that these values cannot be calculated independently. Hence, using the public statement `x` to generate the challenges and hence the proof `π` is called the *strong* implementation of Fiat Shamir.
+
+5. The above points can be summarised by this picture:
+    + ![](./assets/fs_security_b2_1.jpeg) 
+
+6. Now to understand how weak FS implemetations affect PLONK proofs, we first go over the very basics of PLONK on a high level:
+    + PLONK has a constraint system that deals with addition, multiplication (and custom) gates
+    + This looks something like this:
+    + ![](./assets/fs_security_b2_2.png)
+    + We need two types of constraints for this system:
+        + Gate Constraints for Gate correctness
+        + Consistency Constraints for wiring correctness
+    + Now, the ultimate **verification equation** that must be satisfied for it to be a valid proof looks something like this:
+    + ![](./assets/fs_security_b2_3.jpeg)
+    + Please take a note of the equation as well description of the various parts of it from the above photo
+
+7. With an understanding of PLONK and weak FS, let's see how a typical attack would be carried out in this scenario:
+    + As a reminder in the weak FS implementation, the public inputs are NOT used to derive challenges
+    + We may then very well compute the proof first. This can be done because the challenges can be determined by the prover itself. Now the only thing that would remain is to set the *public input* in such a way that it makes the proof acceptable.
+    + Basically, we can arbitrarily choose any polynomial for the highlighted part of the equation:
+    + ![](./assets/fs_security_b2_4.png)
+    + All that is left to do now is solve for the public values `PI = PI<sub>1</sub>, PI<sub>2</sub>, .... , PI<sub>k</sub>` such that the equation is satisfied.
+        + Even this *calculation* is very easy to carry out because you have a high degree of freedom, ie, you can set ALL BUT 1 `PI<sub>i</sub>` to be arbitrary (from the list of public values).
+        + So essentially, if there are 500 public values or `PI<sub>i</sub>`s available, you just have to choose one correct from them that satisfies the equation and the rest can be any random values that you like.
+
+8. Did this look like a theoretical exercise? Well, it was not. Here's a real-life exploit that could have helped the attacker mint unlimited money:
+    + [Dusk critical PLONK security vulnerability](https://dusk.network/news/plonk-vulnerability-remediated)
+    + [Video Inspiration for the section](https://www.youtube.com/watch?v=RTSdkWZrEn4)
